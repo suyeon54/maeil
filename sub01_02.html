@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="css/style.css">
+     <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+    <header>
+      <!-- include/header.html -->
+    </header>
+
+
+   <div id="visual_sub">
+    <div class="page_title"></div>
+    <figure><img src="images/sub_visual.png" alt=""></figure>
+   </div>
+
+
+    <div id="section_box_sub">
+        <div class="centerbox1300">
+            <h2></h2>
+
+            <div class="content_box sub01_01">
+              <div class="graph_box">
+                <div class="graph_border">
+                  <div class="graph">
+                  </div>
+
+                    <div class="text1">HACCP (위해요소 중점 관리 기준)</div>
+                    <div class="text2">ISO 9001
+                        (품질 경영 시스템)</div>
+                    <div class="text3">SO 22000 
+                      (식품 안전 관리 시스템)</div>
+                    <div class="text4">유기농 인증</div>
+                </div>
+              </div>
+
+              <div class="text_box">
+                <div class="title_icon">나의 성향</div>
+                <p>"매일우유"는 한국의 대표적인 유제품 브랜드 중 하나로, 오랜 역사와 안정적인 품질로 잘 알려져 있습니다. 이 브랜드는 유제품의 품질을 보장하기 위해 엄격한 관리 체계를 운영하며, 최신 기술과 설비를 도입하여 생산과정에서의 안전성을 확보하고 있습니다.</p>
+
+                <p>매일우유의 신뢰도는 몇 가지 주요 요소로 설명될 수 있습니다. 첫째, 매일우유는 꾸준히 소비자들에게 높은 품질의 제품을 제공해 왔습니다. 원유의 품질을 유지하기 위해 철저한 검사와 관리 시스템을 운영하고 있으며, 이를 통해 유해물질이나 오염의 위험을 최소화하고 있습니다.</p>
+
+                <p>둘째, 매일우유는 다양한 인증을 보유하고 있습니다. HACCP(위해요소 중점 관리 기준)와 같은 국제 인증을 통해 생산 과정의 위생과 안전성을 보장하고 있으며, 이는 소비자들에게 신뢰를 주는 중요한 요소입니다.</p>
+
+                <p>셋째, 고객의 요구와 변화에 민감하게 대응하며 제품을 개선하고 있습니다. 다양한 제품 라인을 제공하고 있으며, 유제품 외에도 건강과 관련된 제품군을 확대해 나가고 있습니다. 이는 소비자들의 다양한 필요를 충족시키려는 노력을 반영합니다.</p>
+
+                <p>넷째, 매일우유는 사회적 책임을 다하는 기업으로, 지속 가능한 생산과 환경 보호에도 신경을 쓰고 있습니다. 이를 통해 장기적으로 안정적인 제품 공급과 함께 환경을 고려한 생산 방식을 지향하고 있습니다.</p>
+
+                <p>결론적으로, 매일우유는 오랜 역사와 높은 품질 관리, 다양한 인증 및 사회적 책임을 통해 신뢰도를 구축해 온 브랜드입니다. 이러한 요소들이 종합적으로 작용하여 소비자들에게 믿음을 주고 있으며, 지속적으로 신뢰를 유지하기 위해 노력하고 있습니다. </p>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+     <!-- include/footer.html -->
+    </footer>
+
+
+    <div class="page_progress">
+        <span class="bar"></span>
+    </div>
+
+    <div class="page_progress2">
+        <span class="bar2"></span>
+    </div>
+    
+
+
+ <!-- Swiper JS -->
+ <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+ <!-- Initialize Swiper -->
+ <script>
+   var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 2,  //초기값 설정 모바일값이 먼저!!
+        pagination: {
+          el: ".swiper-pagination",
+          type: "fraction",
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        breakpoints: {
+        
+          768: {
+            slidesPerView: 3,  //브라우저가 768보다 클 때
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 3.7,  //브라우저가 1024보다 클 때
+            spaceBetween: 50,
+          },
+        },
+      });
+
+
+      var swiper = new Swiper(".mySwiper2", {
+        slidesPerView: 1,  //초기값 설정 모바일값이 먼저!!
+        pagination: {
+          el: ".swiper-pagination",
+          type: "fraction",
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        breakpoints: {
+        
+          768: {
+            slidesPerView: 1,  //브라우저가 768보다 클 때
+            spaceBetween: 10,
+          },
+          1024: {
+            slidesPerView: 1,  //브라우저가 1024보다 클 때
+            spaceBetween: 50,
+          },
+        },
+      });
+      
+ </script>
+    <script src="script/jquery-3.7.1.js"></script>
+    <script src="script/action.js"></script>
+    
+</body>
+</html>
