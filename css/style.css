@@ -23,6 +23,7 @@ header nav .gnb li:hover .lnb {opacity: 1; visibility: visible;transform: transl
 
 header nav .gnb li .lnb figure {width: 80px;}
 header nav .gnb li .lnb figure img {width: 100%;}
+header nav .gnb li .lnb .milk {width: 50% ; padding-left: 20px;}
 header nav .gnb li .lnb ul {white-space: nowrap;}
 header nav .gnb li .lnb ul li {}
 header nav .gnb li .lnb ul li a {padding: 5px 20px; display: block; color: #fff; }
@@ -49,6 +50,7 @@ header .spotmenu a svg {fill: #555;}
     0% {stroke-dashoffset: 900px; stroke: #5273B4}
     100% {stroke-dashoffset: 0px; stroke: #fff;}
 }
+#visual .centerbox1300 .lnb figure {width: 50px; height: 50px;}
 
 #visual .centerbox1300 figure svg .milky {transform: translateY(-50px); animation: milky 2s forwards; opacity: 0;}
 @keyframes milky {
